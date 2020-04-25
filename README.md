@@ -17,4 +17,4 @@ May you want to remove Better Teams again:
 
 ### This mod is in a WIP state. Expect uncompleted features and bugs.
 
-<a color="red">DISCLAIMER: We do not encourage any kind of account modding or bot creation. This mod is to be used as means to improve the core experience of Microsoft Teams. **That said, use at your own risk**</a>
+<font color="red">DISCLAIMER: We do not encourage any kind of account modding or bot creation. This mod is to be used as means to improve the core experience of Microsoft Teams. **That said, use at your own risk**</font>
