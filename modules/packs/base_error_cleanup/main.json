@@ -1,0 +1,6 @@
+{
+    "name":"(Base) Error Cleanup",
+    "main":"index.js",
+    "author":"ThuverX",
+    "priority":900
+}

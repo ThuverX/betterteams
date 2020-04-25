@@ -1,0 +1,150 @@
+.bt_app-bar-button {
+  height: 5.6rem;
+}
+.bt_app-bar-button.active > button {
+  color: #fff;
+  background: linear-gradient(180deg, rgba(60, 62, 93, 0.6), rgba(60, 62, 93, 0) 33%), linear-gradient(225deg, rgba(60, 62, 93, 0.6) 33%, rgba(60, 62, 93, 0) 70%), linear-gradient(270deg, rgba(60, 62, 93, 0.6) 70%, rgba(60, 62, 93, 0) 94%), linear-gradient(315deg, rgba(60, 62, 93, 0.6) 33%, rgba(60, 62, 93, 0) 70%), linear-gradient(360deg, rgba(60, 62, 93, 0.6), rgba(60, 62, 93, 0) 33%), linear-gradient(90deg, rgba(98, 100, 167, 0.75) 6%, rgba(98, 100, 167, 0) 70%);
+}
+.bt_app-bar-button.active > button:before {
+  background: #e2e2f6;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0.4rem;
+}
+.bt_app-bar-button.active > button:hover {
+  background: rgba(98, 100, 167, 0.7);
+}
+.bt_app-bar-button > button {
+  transition: opacity 0.25s;
+  background: transparent;
+  display: block;
+  font-size: 1.2rem;
+  height: 5.6rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.1rem 0.4rem;
+  cursor: pointer;
+}
+.bt_app-bar-button > button:hover {
+  background: rgba(98, 100, 167, 0.25);
+}
+.bt_app-bar-button > button > .bt_app-bar-image {
+  height: 4rem;
+  width: 4rem;
+  margin: auto;
+  margin-top: -0.8rem;
+  opacity: 0.9;
+  background: transparent;
+  position: relative;
+}
+.bt_app-bar-button > button > .bt_app-bar-image .bt_inner-app-bar-image {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scale(0.7);
+  width: 32px;
+  height: 32px;
+  background: white;
+}
+.bt_app-bar-button > button > .bt_app-bar-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  font-size: 1rem;
+  text-rendering: optimizeLegibility;
+  margin-top: -1.3rem;
+  text-decoration: none;
+  opacity: 0.63;
+}
+#wrapper {
+  position: relative;
+}
+.bt_app {
+  z-index: 20;
+  background: #201f1f;
+  position: absolute;
+  left: 6.8rem;
+  top: 0;
+  width: calc(100% - 6.8rem);
+  height: 100%;
+}
+.bt_app.bt_hidden {
+  display: none;
+}
+.bt_app .bt_app-page-safearea {
+  max-width: 155rem;
+  margin: 0 auto;
+  padding-left: 1.6rem;
+  height: 100%;
+}
+.bt_app .bt_app-page {
+  width: calc(100% - 25rem - 1rem);
+  height: 100%;
+  min-height: 0;
+  padding-left: 3.3rem;
+  left: 0;
+  padding-top: 2rem;
+  margin-top: 0;
+  background: #201f1f;
+}
+.bt_app .bt_app-page .bt_page_title {
+  font-weight: 800;
+  font-size: 3.4rem;
+  margin: 0;
+  display: inline-block;
+}
+.bt_app .bt_app-page .bt_page_subtitle {
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  display: inline-block;
+}
+.bt_app .bt_app-page-sidebar {
+  height: 100%;
+  width: 21rem;
+  margin-top: 0;
+  position: relative;
+  background: #201f1f;
+  float: left;
+}
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-title {
+  padding: 3.3rem 0;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.33333;
+  margin: 0;
+}
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-items {
+  width: 17rem;
+}
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-items .bt_app-page-sidebar-item {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 3rem;
+  padding-top: 0.5rem;
+  padding-left: 0;
+  margin-right: 0;
+  cursor: pointer;
+  color: #c8c6c4;
+  border: 0.2rem solid transparent;
+}
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-items .bt_app-page-sidebar-item:hover,
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-items .bt_app-page-sidebar-item.active {
+  color: white;
+  font-weight: 600;
+}
+.bt_app .bt_app-page-sidebar .bt_app-page-sidebar-items .bt_app-page-sidebar-item .bt_app-page-sidebar-item-text {
+  width: 17rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}

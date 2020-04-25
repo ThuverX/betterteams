@@ -1,0 +1,8 @@
+{
+    "name":"(Base) CSS",
+    "main":"index.js",
+    "author":"ThuverX",
+    "css_files":[],
+    "priority":700,
+    "required":true
+}

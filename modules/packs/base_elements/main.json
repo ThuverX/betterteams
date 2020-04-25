@@ -1,0 +1,7 @@
+{
+    "name":"(Base) Elements",
+    "main":"index.js",
+    "author":"ThuverX",
+    "priority":600,
+    "required":true
+}

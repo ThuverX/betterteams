@@ -1,0 +1,7 @@
+{
+    "name":"(Base) Settings",
+    "main":"index.js",
+    "author":"ThuverX",
+    "priority":400,
+    "required":true
+}

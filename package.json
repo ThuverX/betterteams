@@ -1,0 +1,16 @@
+{
+  "name": "betterteams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "inject": "npm i && node inject.js -inject",
+    "uninject": "node inject.js -inject"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buble": "^0.20.0",
+    "ps-node": "^0.1.6"
+  }
+}
